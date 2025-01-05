@@ -1,0 +1,46 @@
+.landing-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-slider, .contact-info, .order-info, .product-gallery {
+    margin-bottom: 40px;
+}
+
+.slider {
+    display: flex;
+    overflow: auto;
+}
+
+.slide {
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 1.5%;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.buy-button, .post-button {
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-button:hover, .post-button:hover {
+    background-color: #005177;
+}
